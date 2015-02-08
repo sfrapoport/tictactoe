@@ -1,0 +1,23 @@
+.row {
+    margin-left: 50px;
+    height: 100px;
+    margin-bottom: 4px;
+}
+
+.cell {
+    display: inline-block;
+    width: 100px;
+    min-height: 100px;
+    border: 2px;
+    background-color: lightskyblue;
+}
+
+.o, .x {background-repeat: no-repeat;
+    background-position: 8px center;}
+.o {
+    background-image: url("http://dailydropcap.com/images/O-7-cap.png");
+}
+
+.x {
+    background-image: url("http://dailydropcap.com/images/X-2-cap.png");
+}
